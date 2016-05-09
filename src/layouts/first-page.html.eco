@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!--revolution slider 5-->
+<!-- SLIDER EXAMPLE -->
+<section class="latest-news-slider">
+        <article class="slider-container">
+                <div id="rev_slider_34_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery34" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
+                        <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+                        <div id="rev_slider_34_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                                <ul>	<!-- SLIDE  -->
+                                        <!--dynamic -->
+                                        <% for feature in @getCollection("featured").toJSON(): %>
+                                        <%- @partial("feature", feature) %>
+                                        <% end %>
+                                        <!-- /dynamic -->
+
+                                </ul>
+                                <div class="tp-bannertimer tp-bottom" style="height: 5px; background-color: rgba(166, 216, 236, 1.00);"></div>
+                        </div>
+                </div><!-- END REVOLUTION SLIDER -->
+
+        </article>
+</section>
+<!--revolution slider 5 end-->
+<div class="space-80"></div>
+
+<div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                        <%- @content %>
+
+                </div><!--blog list-->
+        </div>
+</div><!--container-->

@@ -1,0 +1,19 @@
+---
+---
+<div class="col-md-6">
+    <div class="post grid-post">
+        <div class="post-img">
+            <a href="<%- @url %>">
+                <img src="<%- @coverimage %>" alt="" class="img-responsive">
+            </a>
+        </div><!--post img-->
+        <div class="post-header text-center">
+            <h3 class="post-title"><a href="<%- @url %>"><%- @title %></a></h3>
+        </div><!--post header-->
+        <div class="post-entry">
+            <p>
+                <%- @preface %>
+            </p>
+        </div><!--post entry-->
+    </div><!--post with grid end-->
+</div><!--col end-->

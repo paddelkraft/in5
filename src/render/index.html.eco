@@ -1,0 +1,23 @@
+---
+layout: first-page
+title: In Five
+---
+<% even = true %>
+<% for book in @getCollection("books").toJSON() : %>
+    <% if even : %>
+        <div class="row">
+    <% end %>
+    <%- @partial("book-item", book) %>
+
+    <% if !even : %>
+        </div><!--row end-->
+    <% end %>
+    <% even = !even %>
+
+<% end %>
+<% if !even : %>
+    </div><!--row end-->
+<% end %>
+<div class="text-right older-post-link">
+    <a href="#">More Books</a>
+</div>
