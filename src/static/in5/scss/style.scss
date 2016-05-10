@@ -9,15 +9,15 @@
 /**google font**/
 @import url(https://fonts.googleapis.com/css?family=Raleway:600,700,800,500);
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700);
-@import "_variables.scss";
-@import "_mixins.scss";
-@import "_base.scss";
-@import "_buttons.scss";
-@import "_socials.scss";
-@import "_header.scss";
-@import "_sidebar.scss";
-@import "_post.scss";
-@import "_footer.scss";
+@import "variables";
+@import "mixins";
+@import "base";
+@import "buttons";
+@import "socials";
+@import "header";
+@import "sidebar";
+@import "post";
+@import "footer";
 
 
 

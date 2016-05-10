@@ -2,7 +2,7 @@
 layout: book
 title: Secure Coding in five minutes
 published: 2016-04-30
-coverimage: /img/cover-secure-coding.png
+coverimage: img/cover-secure-coding.png
 featured: true 
 preface: |
     Security issues are increasingly important in the IT world, both for developers and users. 
@@ -18,7 +18,7 @@ preface: |
 
 ## Morning meeting at Acme Inc.
 
-![](/img/morning-meeting.png)
+![](../img/morning-meeting.png)
 
 **Anna, Scrum Master:** Sorry to start the day with a bit of unpleasantness, but
 Janne at Delta-Q called me late yesterday. He says
@@ -96,7 +96,7 @@ and stress the importance of professional responsibility. Developers with
 professional pride should not have to accept deadlines so tight that there’s
 insufficient time to do a good job!
 
-![](/img/team-hug.png)
+![](../img/team-hug.png)
 
 > **Software Craftsmanship**  
 > The Software Craftsmanship movement aims to promote professionality in the field of 
@@ -146,5 +146,5 @@ send bad data straight to the server.
 > <li>When the user enters SQL code to dump data in a field where
 >   you can search for products (so-called SQL injection).</li></ul>
 
-![](/img/detective.png)
+![](../img/detective.png)
 

@@ -2,7 +2,7 @@
 layout: book
 title: Scaling agile in five minutes
 published: 2016-05-03
-coverimage: /img/cover-scaling-agile.png
+coverimage: img/cover-scaling-agile.png
 featured: true 
 preface: |
     Business operations are like children. Firstly, they have a tendency to grow 
@@ -13,18 +13,18 @@ preface: |
 ### Basement Apps Ltd 
 having unexpected success with a social media app for musicians.  
 
-![](/img/the-scaling-problem-0.png)
+![](../img/the-scaling-problem-0.png)
 
 ### Software Supply Ltd 
 needs more diverse development teams as the company enters the IoT market.
 
-![](/img/the-scaling-problem.png)
+![](../img/the-scaling-problem.png)
 
 ### GigaMeg Corporation
 has introduced a breakthrough technology for mobile antennas and intend 
 to make huge profit before the competition catches up.  
 
-![](/img/the-scaling-problem-2.png)
+![](../img/the-scaling-problem-2.png)
 
 **With success in business, growing pains arrive. Organisations run- ning Lean & Agile are no exception.**
 
@@ -103,7 +103,7 @@ we have de ned seven but your mileage may vary. We recommend that the organisati
 always easy to let go of the other  ve so this part may trigger a discussion about the mission and business 
 strategies of the entire organisatoin.
 
-![](/img/scaling-drivers.png)
+![](../img/scaling-drivers.png)
 
 **It is a great challenge to apply lean & agile frameworks like Kanban and Scrum in new con gurations 
 and across several teams. The theory behind the different frameworks have often been described and 
@@ -114,7 +114,7 @@ To deal with these challenges, a multitude of methodologies for scaling Agile ha
 LESS, Scaled Professional Scrum and several others (see page 14). To handle and understand these methodologies, 
 we have introduce the Softhouse Scaling Agile Model. It is based upon three dimensions:
 
-![](/img/scaling-model.png)
+![](../img/scaling-model.png)
 
 ### Size
 is the number of people and teams involved within a value stream.  

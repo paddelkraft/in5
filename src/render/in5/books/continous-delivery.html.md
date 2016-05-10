@@ -2,7 +2,7 @@
 layout: book
 title: Continous Delivery på 5 minuter
 published: 2016-05-03
-coverimage: /img/cover-continous-delivery.png
+coverimage: img/cover-continous-delivery.png
 featured: true 
 preface: |
     Continuous Delivery – för dig närmare kunden 
@@ -14,7 +14,7 @@ preface: |
 
 # EN VANLIG DAG PÅ JOBBET ...
 
-![](/img/en-dag-pa-jobbet.png)
+![](../img/en-dag-pa-jobbet.png)
 
 **Behöver din organisation strama upp kvaliteten och leveranssäkerheten – och få nöjdare kunder på köpet?**
 
@@ -52,7 +52,7 @@ Mottagaren eller kunden kan vara ett team inom samma organisation eller en affä
 
 ## Ständigt levererbar mjukvara
 
-![](/img/cd-puzzle.png)
+![](../img/cd-puzzle.png)
 
  > Notera att den slutliga produktionssättningen inte ingår i begreppet CD. När vi gör paketerad och 
    levererad mjukvara  kontinuerligt tillgänglig för slutanvändaren kallas det Continous Deployment 
@@ -96,7 +96,7 @@ sannolikhet att kunna sättas i produktion strax efter det att de senaste tillä
 leveranser effektivt. Resultatet blir ett välsmort maskineri där man utvecklar produkten
 inkrementellt med tillägg och rättningar i små steg. Produkten är hela tiden redo att levereras.**
 
-![](/img/cd-in-practice.png)
+![](../img/cd-in-practice.png)
 
 > I en väl fungerande CD-organisation snurrar leveranshjulet (= den gråa cirkeln) hela tiden i hög hastighet.
   Notera hur de fyra disciplinerna – kod, byggen, test och leveranser – går igen på varje nivå. Man skulle 
@@ -124,7 +124,7 @@ När organisationen har uppnått hög mognad inom disciplinerna uppkommer det s�
 
 # UTVECKLAREN STÅR I CENTRUM I CONTINUOUS DELIVERY
 
-![](/img/cd-developer.png)
+![](../img/cd-developer.png)
 
 > CD-konceptets minsta beståndsdel är den enskilde utvecklaren som behärskar de fyra disciplinerna.
 
