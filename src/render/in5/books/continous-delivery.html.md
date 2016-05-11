@@ -1,8 +1,8 @@
 ---
 layout: book
-title: Continous Delivery på 5 minuter
+title: Continuous Delivery på 5 minuter
 published: 2016-05-03
-coverimage: img/cover-continous-delivery.png
+coverimage: /in5/img/cover-continous-delivery.png
 featured: true 
 preface: |
     Continuous Delivery – för dig närmare kunden 
@@ -124,7 +124,7 @@ När organisationen har uppnått hög mognad inom disciplinerna uppkommer det s�
 
 # UTVECKLAREN STÅR I CENTRUM I CONTINUOUS DELIVERY
 
-![](../img/cd-developer.png)
+![CD-konceptets minsta beståndsdel är den enskilde utvecklaren som behärskar de fyra disciplinerna](../img/cd-developer.png)
 
 > CD-konceptets minsta beståndsdel är den enskilde utvecklaren som behärskar de fyra disciplinerna.
 
@@ -140,4 +140,120 @@ och hur bra de olika delarna av koden fungerar – enskilt och integrerat.
 
 En tumregel för CD säger att en enskild leverans av kod inte ska behöva ta mer än en timme. 
 Bygge och automatiska tester kommer snabbt att ge återkoppling om leveransen inte fungerar som det är tänkt.
+
+------------
+
+## De fyra disciplinerna
+
+**Kod:** Verktyg och processer för att lägga till ny kod samt hantera nya och gamla versioner av 
+kod som utvecklas och levereras. I samband med tillägg av ny kod triggas kodgranskningar, 
+byggen och automatiska tester för direkt återkoppling till utvecklaren innan ändringen 
+slutligt läggs till produkten. Här görs det synligt för alla inblandade vilka saker som 
+lagts till i produk- ten. Dokumentation görs av tilläggen automatiskt.
+
+**Byggen:** Verktyg och processer för att robust och effektivt bygga koden i en produkt så att resultatet 
+blir identiskt för alla inblandade. Skapar även möjlighet att återskapa gamla versioner av produkten.
+
+**Test:** Verktyg och processer för hantering av testkod tillsammans med kod för 
+produkten samt automatisk test av produkten. Från automatisk test kom- mer kontinuerligt 
+visibiliteten på hur nya och gamla funktioner i produkten fungerar. Även den enskilde 
+utvecklaren får visibilitet på hur varje enskilt tillägg fungerar innan det slutligt 
+läggs till.
+
+**Leveranser:** Förmågan att paketera mjukvaran och göra den tillgänglig för kunden.
+I många fall är det lämpligt att beskriva kon guration och uppsättning av produktionsmiljön 
+som kod tillsammans med produkten och testerna.
+
+-----------------------------------------------
+
+# KOMMA IGÅNG MED CONTINUOUS DELIVERY – 1
+
+**Metodiken bakom Continuous Delivery kan knappast implementeras över en natt. Istället rör det sig 
+om ett mognadsarbete där organisationen går från nybörjare till mogen mästare. Det centrala verktyget 
+är en så kallad mognadsmodell.**
+
+## 1
+**Analysera de affärsmässiga förutsättningarna.**  
+En välfungerande organisation för CD bygger på en djup förståelse för marknadens 
+och kundens behov och de affärsmöjligheter som metodiken skapar. På denna baseras 
+alla de beslut och prioriteringar som sedan görs.
+
+## 2
+**Introducera en mognadsmodell och utvärdera organisationens förutsätt- ningar och mognad.**  
+En mognadsmodell är ett verktyg som både översiktligt och i detalj visar hur långt organisationen har 
+kommit när det gäller infrastruktur och arbetsmetodik. Den ligger till grund för en utvärdering 
+(assessment) av de fyra olika disciplinerna (kod, bygge, test, leverans) inför införandet av CD. 
+Även efter det att man tagit de första stegen utgör mognadsmodellen ett centralt verktyg (se punkt 4 nedan); 
+man kan se den som ett slags backlog för att förbättra respektive införa nya metoder och processer.
+
+![](/in5/img/cd-maturitymodel.png)
+_Efter analys, utvärdering och planering är det bara att kavla upp ärmarna och börja röra sig 
+genom mognadsmodellen från vänster till höger. I bilden ser vi två organisationer – den röda och 
+den gröna – som arbetar sig genom mognadsmod- ellen. Att gå från ”Novice” till ”Mature” kan ta 
+månader,till och med år. Notera att en organisation kan ha hunnit olika långt i de olika disciplinerna._
+
+## 3
+**Gör en plan för förbättringarna**  
+Baserat på den affärsmässiga analysen och insikterna från steg 2 upprät- tas en plan. Vilka 
+åtgärder  nns det behov av? I vilken ordning är förän- dringarna lämpliga att genomföra? Var 
+kan vi snabbt få effekt av några åtgärder? När kan vi börja dra riktig nytta av fördelarna av CD?
+
+
+## 4
+**Genomför förbättringarna enligt planen**  
+Genomför förbättringarna steg för steg enligt planen och utvärdera kontinuerligt att det går i rätt 
+riktning. Planen innefattar troligen både invest- eringar i verktyg, utbildning och processer inom 
+de olika disciplinerna för hantering av kod, bygge, test och leverans.  
+
+Detta arbete innefattar bland annat att anpassa och komplettera infrastrukturen. Först och 
+främst gäller det att få ordning på källkodshanter- ingen, inte minst versionshanteringen. Den 
+stora utmaningen är sedan att automatisera byggen och kvalitetskontroll. Det är också viktigt 
+att man visualiserar alla processer och leveranser. Slutligen måste man skapa en mogen och 
+automatiserad leveransprocess.
+
+## 5
+**Trimma processerna och inför nya tankesätt**  
+När infrastrukturen börjar komma på plats är det dags att trimma in processerna och röra sig åt 
+höger i mognadsmodellen. Det innebär också att man inför nya tankesätt:
+
+**Metodtänkandet** ska ta fasta på princip 1 i Agile Manifesto: ”Our highest priority is to satisfy 
+the customer through early and continuous delivery of valuable software”. Det innebär bland annat 
+att varje avslutad uppgift ska ge ett levererbart resultat som kan ligga till grund för snabb 
+återkoppling i en simulerad eller verklig produktionsmiljö.
+
+**Kommunikationen** måste intensifieras på alla plan, både inom utvecklings teamet och mellan kund 
+och utvecklingsteam. Om kunden så önskar ska den kunna följa hur saker och ting fortskrider dag 
+för dag – total transparens är målet. Utvecklarna, å andra sidan, kan behöva få mer kunskap 
+om hur, var och av vem mjukvaran ska användas.
+
+**Effektivt ledarskap** i en CD-miljö handlar mycket om att stärka tilliten inom utvecklingsteamet 
+– alla ska veta att de gör rätt saker på rätt sätt och att ett altruistiskt beteende lönar sig. 
+Ledningen måste också utveckla en ny djärvhet när det gäller att utnyttja den transparens, 
+tempoökning och leveranssäkerhet som CD skapar.
+
+**Agile manifesto**
+## __“WE FOLLOW THESE PRINCIPLES: OUR HIGHEST PRIORITY IS TO SATIS- FY THE CUSTOMER THROUGH EARLY AND CONTINUOUS DELIVERY OF VALUABLE SOFTWARE ...”__
+
+----------------
+
+# ETT ANNAT SÄTT ATT FÖRKLARA CONTINUOUS DELIVERY
+** Batch Automobiles och Continuous Cars är två racingstall som tävlar i formelbilsserien Formel Agile. 
+Konkurrensen är knivskarp, och för varje internationellt race måste de tekniska underverk som bilarna 
+utgör modifieras och uppdateras. Batch Automobiles har länge dominerat, men nu står man chanslös mot 
+uppstickaren Continuous Cars. Hur hinner dessa nya stjärnor få sina bilar perfekt anpassade för varje race?**
+    
+Låt oss se vad som pågår bakom de stängda verkstadsdörrarna hos de båda racingstallen.
+
+[A] Hos Batch Automobiles går mekanikerteamet till botten med hela konstruktionen vid varje uppdatering. 
+De plockar isär bilen och jobbar med sina respektive delar. När alla är klara med sitt arbete plockar 
+de ihop en fungerande bil igen. Dessvärre brukar oväntade problem uppstå när de sätter ihop bilen eftersom 
+de olika delarna inte har testats tillsam- mans. När arbetet pågår vet tävlingsförararna för Batch Automobiles 
+att de ofta måste vänta i  era dagar mellan tillfällena då de får chansen att provköra bilen och ge återkoppling.
+![](/in5/img/batch-automobile.png)
+
+[B] Hos Continuous Cars plockar man bara ut de delar som man behöver utföra ändringar på. Så fort en mekaniker 
+gjort en ändring stoppar han eller hon tillbaks den och testar så att den fungerar tillsammans med bilen i 
+övrigt. Närhelst mekanikerna tar en paus i arbetet kan tävlingsförarna sätta sig i bilen, köra en kvick runda 
+och ge återkoppling.
+![](/in5/img/continouos-car.png)
 

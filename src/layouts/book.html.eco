@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
     <div class="row">
-        <div class="jumbotron" style="background-image: url('/img/cover.jpg');"
+        <div class="jumbotron" style="background-image: url('/in5/img/cover.jpg');"
              alt="">
             <h1><%= @document.title %></h1>
         </div>

@@ -9,8 +9,8 @@ docpadConfig =
 # Out Path
 # Where should we put our generated website files?
 # If it is a relative path, it will have the resolved `rootPath` prepended to it
-  outPath: 'out/in5'  # default
-  rootOutDirPath: 'out'
+  outPath: 'out'  # default
+
 # =================================
 # Template Data
 # These are variables that will be accessible via our templates
@@ -45,35 +45,35 @@ docpadConfig =
 
 # The website's styles
       styles: [
-        "/bootstrap/css/bootstrap.min.css",
-        "/bower_components/font-awesome/css/font-awesome.min.css",
-        "/bower_components/flexslider/flexslider.css",
-        "/bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css",
-        "/revolution/css/navigation.css",
-        "/revolution/css/layers.css" ,
-        "/revolution/css/settings.css",
-        "/css/style.css"
+        "/in5/bootstrap/css/bootstrap.min.css",
+        "/in5/bower_components/font-awesome/css/font-awesome.min.css",
+        "/in5/bower_components/flexslider/flexslider.css",
+        "/in5/bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css",
+        "/in5/revolution/css/navigation.css",
+        "/in5/revolution/css/layers.css" ,
+        "/in5/revolution/css/settings.css",
+        "/in5/css/style.css"
       ]
 
 # The website's scripts
       scripts: [
-        "/bower_components/jquery/dist/jquery.min.js",
-        "/js/jquery-migrate.min.js",
-        "/js/jquery.easing.1.3.min.js" ,
-        "/bootstrap/js/bootstrap.min.js",
-        "/js/bootstrap-hover-dropdown.min.js",
-        "/bower_components/flexslider/jquery.flexslider-min.js",
-        "/js/custom.js",
-        "/bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js",
-        "/js/contact_me.js",
-        "/js/jqBootstrapValidation.js",
-        "/revolution/js/jquery.themepunch.revolution.min.js",
-        "/revolution/js/jquery.themepunch.tools.min.js",
-        "/revolution/js/extensions/revolution.extension.slideanims.min.js",
-        "/revolution/js/extensions/revolution.extension.layeranimation.min.js",
-        "/revolution/js/extensions/revolution.extension.navigation.min.js",
-        "/revolution/js/extensions/revolution.extension.parallax.min.js",
-        "/scripts/slider.js"
+        "/in5/bower_components/jquery/dist/jquery.min.js",
+        "/in5/js/jquery-migrate.min.js",
+        "/in5/js/jquery.easing.1.3.min.js" ,
+        "/in5/bootstrap/js/bootstrap.min.js",
+        "/in5/js/bootstrap-hover-dropdown.min.js",
+        "/in5/bower_components/flexslider/jquery.flexslider-min.js",
+        "/in5/js/custom.js",
+        "/in5/bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js",
+        "/in5/js/contact_me.js",
+        "/in5/js/jqBootstrapValidation.js",
+        "/in5/revolution/js/jquery.themepunch.revolution.min.js",
+        "/in5/revolution/js/jquery.themepunch.tools.min.js",
+        "/in5/revolution/js/extensions/revolution.extension.slideanims.min.js",
+        "/in5/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+        "/in5/revolution/js/extensions/revolution.extension.navigation.min.js",
+        "/in5/revolution/js/extensions/revolution.extension.parallax.min.js",
+        "/in5/scripts/slider.js"
 
       ]
 

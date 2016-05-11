@@ -87,7 +87,7 @@ the factors in the table may be considered:
 - How is the SW delivered – as a permanent license or as a subscription? IT to support business
 - Is the system business critical?
 - Size/co-location
--How does the software architecture and the infrastructure look?
+- How does the software architecture and the infrastructure look?
 - What’s the level of agile maturity?
 - How big is your budget?
 

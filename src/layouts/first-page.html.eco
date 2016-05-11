@@ -10,8 +10,10 @@ layout: default
                         <div id="rev_slider_34_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
                                 <ul>	<!-- SLIDE  -->
                                         <!--dynamic -->
+                                        <% index = 0 %>
                                         <% for feature in @getCollection("featured").toJSON(): %>
-                                        <%- @partial("feature", feature) %>
+                                                <%- @partial("feature", {book: feature, i : index}) %>
+                                                <% index += 1 %>
                                         <% end %>
                                         <!-- /dynamic -->
 
