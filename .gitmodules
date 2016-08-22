@@ -1,0 +1,6 @@
+[submodule "plugins/docpad-plugin-marked"]
+	path = plugins/docpad-plugin-marked
+	url = https://github.com/paddelkraft/docpad-plugin-marked.git
+[submodule "plugins/docpad-plugin-ghpages"]
+	path = plugins/docpad-plugin-ghpages
+	url = https://github.com/paddelkraft/docpad-plugin-ghpages.git
