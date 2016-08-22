@@ -101,11 +101,11 @@ inkrementellt med tillägg och rättningar i små steg. Produkten är hela tiden
 > I en väl fungerande CD-organisation snurrar leveranshjulet (= den gråa cirkeln) hela tiden i hög hastighet.
   Notera hur de fyra disciplinerna – kod, byggen, test och leveranser – går igen på varje nivå. Man skulle 
   nästan kunna säga att CD har en fraktal struktur!
->  
+>    
 > Den kod som har integrerats och hur testerna har utfallit visualiseras tydligt. Alla kan enkelt se vilka 
   tillägg som gjorts från backloggarna varje dag och hur testresultatet ser ut – dels för de nya funktionerna, 
   dels för de sedan tidigare existerande funktionerna.
->
+>  
 > Minst en gång om da- gen är organisationen redo att skeppa en
   ny produktversion till kunden.  
 

@@ -74,6 +74,12 @@ based on a balanced risk assessment where you make trade-offs:
 > **You do not have to solve all the security problems in your product, but you must**  
 > <ul><li>Understand the risks you take</li><li>understand that you are taking them</li><ul>
 
+.orange 
+**You do not have to solve all the security problems in your product, but you must**  
+* Understand the risks you take
+* Understand that you are taking them
+
+
 ***
 
 ### Safe suggestion #1:

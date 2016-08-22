@@ -586,6 +586,12 @@ Blog post
     font-weight: 400;
     font-style: italic; }
 
+.post-paragraph{
+  margin-bottom: 30px;  }
+  .post-paragraph.orange{
+   background-color: #F5D0A9;
+   border-left: 10px solid #FAAC58;}
+
 .post-img {
   margin-bottom: 20px; }
 
@@ -745,5 +751,7 @@ Blog post
     margin: 0px; }
   .slider-text-inner .btn-skin {
     display: none; } }
+
+
 
 /*# sourceMappingURL=style.css.map */

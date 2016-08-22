@@ -10,6 +10,7 @@ docpadConfig =
 # Where should we put our generated website files?
 # If it is a relative path, it will have the resolved `rootPath` prepended to it
   outPath: 'out'  # default
+  ghpRoot: 'in5'
 
 # =================================
 # Template Data
@@ -76,6 +77,7 @@ docpadConfig =
         "/in5/scripts/slider.js"
 
       ]
+
 
 
 # -----------------------------
@@ -178,6 +180,7 @@ docpadConfig =
           res.redirect(newUrl+req.url, 301)
         else
           next()
+
 
   watchOptions: preferredMethods: ['watchFile','watch']
 # Export our DocPad Configuration

@@ -10,6 +10,7 @@ preface: |
     The manager or parent who tries one size fits all solutions is bound to fail.
 ---
 
+
 ### Basement Apps Ltd 
 having unexpected success with a social media app for musicians.  
 
