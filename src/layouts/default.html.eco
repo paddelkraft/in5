@@ -31,31 +31,20 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle  js-activated" data-toggle="dropdown" role="button" aria-haspopup="true">Home <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Revolution slider 5</a></li>
-                                <li><a href="masonry-grid.html">Masonry Grid</a></li>
-                                <li><a href="full-width.html">Full Width</a></li>
-                                <li><a href="full-sidebar.html">Full width + sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Lifestyle</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="about.html">About me</a></li>
+                        <li><a href="/in5/index.html">Home</a></li>
+                        <li><a href="about.html">About In five</a></li>
                        
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" >Features <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" >Books <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="img-post.html">Image Post</a></li>
-                                <li><a href="video-post.html">Video Post</a></li>
-                                <li><a href="music-post.html">Music post</a></li>
-                                <li><a href="gallery-post.html">Gallery Post</a></li>
-                                <li><a href="lightbox-gallery.html">Lightbox gallery</a></li>
+                                <% for book in @getCollection("books").toJSON(): %>
+                                    <li><a href="<%- book.url %>"><%- book.title %></a></li>
+                                <% end %>
+
                             </ul>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <!--ul class="nav navbar-nav navbar-right">
                         <li>
                             <form class="search-widget">
                                 <input type="text" class="form-control" placeholder="Search...">
@@ -63,7 +52,7 @@
                             </form>
                         </li>
                         <li><a href="#" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">Contact</a></li>
-                    </ul>
+                    </ul-->
                 </div><!--/.nav-collapse -->
            
 
@@ -71,38 +60,6 @@
         </nav><!--main navigation end-->
         <div style="height: 50px"></div>
 
-        <!--top bar-->
-        <!--        <div class="top-bar">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 hidden-xs">
-                                <ul class="list-inline">
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-facebook"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-twitter"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-instagram"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-g-plus"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-linkedin"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-pinterest"><i class="fa fa-pinterest"></i><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4 col-sm-offset-2">
-                                <form class="search-widget">
-                                    <input type="text" class="form-control" placeholder="Search and hit enter">
-                                    <i class="fa fa-search"></i>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-        <!--top bar end-->
-        <!--div class="logo-bar">
-            <div class="container text-center">
-                <h1>  <a href="#">
-                        <img src="/img/cover.jpg" alt="">
-
-                    </a></h1>
-            </div>
-        </div-->
         <!--off-canvas start-->
         <div class="navmenu navmenu-default navmenu-fixed-right offcanvas">
             <div class="side-panel-inner">
