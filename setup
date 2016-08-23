@@ -1,0 +1,3 @@
+#!/bin/bash
+(cd plugins/docpad-plugin-ghpages/; cake compile)
+#(cd plugins/docpad-plugin/marked/; cake compile)
