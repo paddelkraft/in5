@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title></title>
+
+        <link  rel="stylesheet" href="/in5/bootstrap/css/bootstrap.min.css" /><link  rel="stylesheet" href="/in5/bower_components/font-awesome/css/font-awesome.min.css" /><link  rel="stylesheet" href="/in5/bower_components/flexslider/flexslider.css" /><link  rel="stylesheet" href="/in5/bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css" /><link  rel="stylesheet" href="/in5/revolution/css/navigation.css" /><link  rel="stylesheet" href="/in5/revolution/css/layers.css" /><link  rel="stylesheet" href="/in5/revolution/css/settings.css" /><link  rel="stylesheet" href="/in5/css/style.css" />
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"  aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="#">Project name</a>-->
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle  js-activated" data-toggle="dropdown" role="button" aria-haspopup="true">Home <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Revolution slider 5</a></li>
+                                <li><a href="masonry-grid.html">Masonry Grid</a></li>
+                                <li><a href="full-width.html">Full Width</a></li>
+                                <li><a href="full-sidebar.html">Full width + sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="about.html">About me</a></li>
+                       
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown" role="button" aria-haspopup="true" >Features <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="img-post.html">Image Post</a></li>
+                                <li><a href="video-post.html">Video Post</a></li>
+                                <li><a href="music-post.html">Music post</a></li>
+                                <li><a href="gallery-post.html">Gallery Post</a></li>
+                                <li><a href="lightbox-gallery.html">Lightbox gallery</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="search-widget">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <button type="button"> <i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
+                        <li><a href="#" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+           
+
+            </div><!--/.container-fluid -->
+        </nav><!--main navigation end-->
+        <div style="height: 50px"></div>
+
+        <!--top bar-->
+        <!--        <div class="top-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 hidden-xs">
+                                <ul class="list-inline">
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-facebook"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-twitter"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-instagram"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-g-plus"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-linkedin"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#" class="social-icon-sm si-gray si-gray-round si-pinterest"><i class="fa fa-pinterest"></i><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <form class="search-widget">
+                                    <input type="text" class="form-control" placeholder="Search and hit enter">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+        <!--top bar end-->
+        <!--div class="logo-bar">
+            <div class="container text-center">
+                <h1>  <a href="#">
+                        <img src="/img/cover.jpg" alt="">
+
+                    </a></h1>
+            </div>
+        </div-->
+        <!--off-canvas start-->
+        <div class="navmenu navmenu-default navmenu-fixed-right offcanvas">
+            <div class="side-panel-inner">
+                 <form name="sentMessage" id="contactForm" method="post" novalidate>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row control-group">
+                                        <div class="form-group col-xs-12 controls">
+                                      
+                                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="row control-group">
+                                        <div class="form-group col-xs-12 controls">
+                                
+                                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <p class="help-block"></p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 controls">
+                                 
+                                    <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                        
+                            <div id="success"></div>
+                            <div class="row">
+                                <div class="form-group col-xs-12">
+                                    <button type="submit" class="btn btn-skin btn-lg">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                <div class="space-30"></div>
+                <h4>Follow us</h4>
+                <div class="socials">
+                    <a href="#" class="social-icon si-dark si-gray-round si-colored-facebook">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon si-dark si-gray-round si-colored-twitter">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon si-dark si-gray-round si-colored-instagram">
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon si-dark si-gray-round si-colored-linkedin">
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- offcanvas side end -->
+
+        <div class="container">
+    <div class="row">
+        <div class="jumbotron" style="background-image: url('/in5/img/cover.jpg');"
+             alt="">
+            <h1>Continuous Delivery på 5 minuter</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+
+            <div class="book-content">
+                <h1 id="en-vanlig-dag-p-jobbet-">EN VANLIG DAG PÅ JOBBET ...</h1>
+<p><img src="../img/en-dag-pa-jobbet.png" alt=""></p>
+<p><strong>Behöver din organisation strama upp kvaliteten och leveranssäkerheten – och få nöjdare kunder på köpet?</strong></p>
+<p>Då rekommenderar vi en närmare titt på Continuous Delivery – metodiken där</p>
+<ul>
+<li>stressnivån sjunker och utrymmet för kreativitet ökar</li>
+<li>det går snabbt att anpassa sig till ändrade förutsättningar och kund-
+önskemål</li>
+<li>dina utvecklare slipper gräva fram gamla problem som borde varit lösta
+för länge sen</li>
+<li>din organisation kan ge leveranslöften som kunden kan lita på • du tidigt kan ge kunden något att prova och ge 
+återkoppling på</li>
+<li>du alltid vet vad koden har för status: klar för leverans!</li>
+<li>teamet får snabbt bekräftat efter varje ändring av koden att allting fungerar</li>
+<li>du tidigt kan ge kunden något att prova och ge återkoppling på</li>
+</ul>
+<p>Inte minst är Continuous Delivery en metodik som låter utvecklarna fokusera på att skriva bra kod; 
+de vet ju att det som de levererar faktiskt fungerar tillsammans med andra delar av mjukvaran.</p>
+<hr>
+<h1 id="vad-inneb-r-continuous-delivery-">VAD INNEBÄR CONTINUOUS DELIVERY?</h1>
+<p><strong>Continuous Delivery, CD, är en metod som gör att mjukvaruorganisationer kan leverera 
+nya versioner eller uppdateringar snabbt och löpande utan att drabbas av interna förseningar 
+eller kvalitetsproblem.</strong></p>
+<p>Metoden är till för team som samarbetar kring en gemensam mjukvaru- produkt eller -tjänst. 
+Den bygger på ett arbets öde där varje utvecklare tar stort individuellt ansvar för kvaliteten på koden. 
+Automatiska tester utförs omedelbart efter varje ändring eller komplettering av koden. Arbetet präglas 
+av korta cykler och snabb återkoppling. Det gör att mjukvaran ständigt är testad och klar för skeppning. 
+Därför behöver inte ny funktionalitet, förbättringar och bugg xar paketeras i stora uppdateringar utan 
+kan levereras så fort de är klara.
+Mottagaren eller kunden kan vara ett team inom samma organisation eller en affärspartner 
+(som inte är slutanvändare av mjukvaran).</p>
+<h2 id="st-ndigt-levererbar-mjukvara">Ständigt levererbar mjukvara</h2>
+<p><img src="../img/cd-puzzle.png" alt=""></p>
+<blockquote>
+<p>Notera att den slutliga produktionssättningen inte ingår i begreppet CD. När vi gör paketerad och 
+   levererad mjukvara  kontinuerligt tillgänglig för slutanvändaren kallas det Continous Deployment </p>
+</blockquote>
+<h1 id="principerna-f-r-continuous-delivery">PRINCIPERNA FÖR CONTINUOUS DELIVERY</h1>
+<p><strong>Continuous Delivery innebär att den kod som produceras hela tiden och på alla nivåer befnner sig under 
+kvalitetskontroll, främst genom automatisk testning. Koden ska så fort som möjligt testas i sin kontext 
+och paketeras för att bli redo för leverans.</strong></p>
+<h3 id="individuellt-ansvar-f-r-kvalitet">Individuellt ansvar för kvalitet</h3>
+<p>Huvudloopen i CD är den individuella utvecklarens arbete med kodändringar som byggs och testas innan 
+de integreras med teamets övriga kodändringar. Arbetet bygger på tillit och laganda: varje utvecklare 
+måste utföra sin del av arbetet på ett förutsägbart och noggrant sätt, utan att ta genvägar eller göra 
+”fulhack” (läs gärna Clean Code på fem minuter).</p>
+<h3 id="automatisk-kvalitetss-kring">Automatisk kvalitetssäkring</h3>
+<p>För att kvalitetssäkringen ska  yta måste den automatiseras så mycket det går även om kodgranskning 
+fortfarande har sin plats. Det för också det goda med sig att utvecklarna tillbringar minimalt med 
+tid på kvalitets- kontrollen av varje leverans. En ytterligare fördel är att automatiseringen minskar 
+risken för fel. När man tillämpar CD ska det alltid gå undan; till exempel bör testningen av nya 
+kodändringar vara klara inom en timme.</p>
+<h3 id="korta-cykler-med-snabb-och-kontinuerlig-feedback">Korta cykler med snabb och kontinuerlig feedback</h3>
+<p>Här följer CD de sedvanliga principerna för Agile. CD handlar om att få ett komplext samarbete 
+att  yta utan väntetider eller fel – som kugghjulen i ett väloljat maskineri.</p>
+<p>Genom att kontinuerligt lägga till små ändringar som testas får teamen god insikt om hur långt 
+de har kommit och tar därigenom en liten risk vid varje tillägg. Produkten kommer med stor 
+sannolikhet att kunna sättas i produktion strax efter det att de senaste tilläggen gjorts i koden.</p>
+<hr>
+<h1 id="continous-delivery-i-praktiken">CONTINOUS DELIVERY I PRAKTIKEN</h1>
+<p><strong>Continuous Delivery handlar om att bli duktig på att hantera kod, byggen, test och 
+leveranser effektivt. Resultatet blir ett välsmort maskineri där man utvecklar produkten
+inkrementellt med tillägg och rättningar i små steg. Produkten är hela tiden redo att levereras.</strong></p>
+<p><img src="../img/cd-in-practice.png" alt=""></p>
+<blockquote>
+<p>I en väl fungerande CD-organisation snurrar leveranshjulet (= den gråa cirkeln) hela tiden i hög hastighet.
+  Notera hur de fyra disciplinerna – kod, byggen, test och leveranser – går igen på varje nivå. Man skulle 
+  nästan kunna säga att CD har en fraktal struktur!</p>
+<p>Den kod som har integrerats och hur testerna har utfallit visualiseras tydligt. Alla kan enkelt se vilka 
+  tillägg som gjorts från backloggarna varje dag och hur testresultatet ser ut – dels för de nya funktionerna, 
+  dels för de sedan tidigare existerande funktionerna.</p>
+<p>Minst en gång om da- gen är organisationen redo att skeppa en
+  ny produktversion till kunden.  </p>
+</blockquote>
+<p>En fungerande CD-organisation bygger på att
+både individer och team behärskar fyra så kallade discipliner:</p>
+<p><strong>kod</strong> - (code) verktyg och processer för att lägga till ny kod samt hantera versioner.<br><strong>byggen</strong> – (build) verktyg och processer för att bygga koden i en produkt.<br><strong>test</strong> – (test) verktyg och processer för att hantera testkod tillsammans med 
+kod för produkten samt automatisk test av produkten.<br><strong>leveranser</strong> - (delivery) förmågan att paketera mjukvaran och göra den tillgänglig för kunden.<br>När organisationen har uppnått hög mognad inom disciplinerna uppkommer det sällan några negativa 
+överraskningar vid integration och leverans.</p>
+<hr>
+<h1 id="utvecklaren-st-r-i-centrum-i-continuous-delivery">UTVECKLAREN STÅR I CENTRUM I CONTINUOUS DELIVERY</h1>
+<p><img src="../img/cd-developer.png" alt="CD-konceptets minsta beståndsdel är den enskilde utvecklaren som behärskar de fyra disciplinerna"></p>
+<blockquote>
+<p>CD-konceptets minsta beståndsdel är den enskilde utvecklaren som behärskar de fyra disciplinerna.</p>
+</blockquote>
+<p><strong>I Continuous Delivery eftersträvar man att utvecklaren har så effektiva verktyg och processer 
+som möjligt för hantering av de tre disciplinerna kod, bygge och test. Möjligheten att få värdefull 
+återkoppling gör att ut- vecklaren sporras till att jobba i snabba cykler och därigenom tillämpa 
+den fjärde disciplinen: att leverera kodändringar så fort de är klara.</strong></p>
+<p>Genom att alla jobbar på samma sätt  nns de senaste kodversionerna från övriga utvecklare tillgängliga 
+hela tiden – testade och klara. Väntetiderna mellan olika delar av organisationen blir därigenom så 
+korta som de någonsin kan bli. Via tydlig visualisering förstår alla i organisationen vad som är färdigt 
+och hur bra de olika delarna av koden fungerar – enskilt och integrerat.</p>
+<p>En tumregel för CD säger att en enskild leverans av kod inte ska behöva ta mer än en timme. 
+Bygge och automatiska tester kommer snabbt att ge återkoppling om leveransen inte fungerar som det är tänkt.</p>
+<hr>
+<h2 id="de-fyra-disciplinerna">De fyra disciplinerna</h2>
+<p><strong>Kod:</strong> Verktyg och processer för att lägga till ny kod samt hantera nya och gamla versioner av 
+kod som utvecklas och levereras. I samband med tillägg av ny kod triggas kodgranskningar, 
+byggen och automatiska tester för direkt återkoppling till utvecklaren innan ändringen 
+slutligt läggs till produkten. Här görs det synligt för alla inblandade vilka saker som 
+lagts till i produk- ten. Dokumentation görs av tilläggen automatiskt.</p>
+<p><strong>Byggen:</strong> Verktyg och processer för att robust och effektivt bygga koden i en produkt så att resultatet 
+blir identiskt för alla inblandade. Skapar även möjlighet att återskapa gamla versioner av produkten.</p>
+<p><strong>Test:</strong> Verktyg och processer för hantering av testkod tillsammans med kod för 
+produkten samt automatisk test av produkten. Från automatisk test kom- mer kontinuerligt 
+visibiliteten på hur nya och gamla funktioner i produkten fungerar. Även den enskilde 
+utvecklaren får visibilitet på hur varje enskilt tillägg fungerar innan det slutligt 
+läggs till.</p>
+<p><strong>Leveranser:</strong> Förmågan att paketera mjukvaran och göra den tillgänglig för kunden.
+I många fall är det lämpligt att beskriva kon guration och uppsättning av produktionsmiljön 
+som kod tillsammans med produkten och testerna.</p>
+<hr>
+<h1 id="komma-ig-ng-med-continuous-delivery-1">KOMMA IGÅNG MED CONTINUOUS DELIVERY – 1</h1>
+<p><strong>Metodiken bakom Continuous Delivery kan knappast implementeras över en natt. Istället rör det sig 
+om ett mognadsarbete där organisationen går från nybörjare till mogen mästare. Det centrala verktyget 
+är en så kallad mognadsmodell.</strong></p>
+<h2 id="1">1</h2>
+<p><strong>Analysera de affärsmässiga förutsättningarna.</strong><br>En välfungerande organisation för CD bygger på en djup förståelse för marknadens 
+och kundens behov och de affärsmöjligheter som metodiken skapar. På denna baseras 
+alla de beslut och prioriteringar som sedan görs.</p>
+<h2 id="2">2</h2>
+<p><strong>Introducera en mognadsmodell och utvärdera organisationens förutsätt- ningar och mognad.</strong><br>En mognadsmodell är ett verktyg som både översiktligt och i detalj visar hur långt organisationen har 
+kommit när det gäller infrastruktur och arbetsmetodik. Den ligger till grund för en utvärdering 
+(assessment) av de fyra olika disciplinerna (kod, bygge, test, leverans) inför införandet av CD. 
+Även efter det att man tagit de första stegen utgör mognadsmodellen ett centralt verktyg (se punkt 4 nedan); 
+man kan se den som ett slags backlog för att förbättra respektive införa nya metoder och processer.</p>
+<p><img src="/in5/img/cd-maturitymodel.png" alt="">
+<em>Efter analys, utvärdering och planering är det bara att kavla upp ärmarna och börja röra sig 
+genom mognadsmodellen från vänster till höger. I bilden ser vi två organisationer – den röda och 
+den gröna – som arbetar sig genom mognadsmod- ellen. Att gå från ”Novice” till ”Mature” kan ta 
+månader,till och med år. Notera att en organisation kan ha hunnit olika långt i de olika disciplinerna.</em></p>
+<h2 id="3">3</h2>
+<p><strong>Gör en plan för förbättringarna</strong><br>Baserat på den affärsmässiga analysen och insikterna från steg 2 upprät- tas en plan. Vilka 
+åtgärder  nns det behov av? I vilken ordning är förän- dringarna lämpliga att genomföra? Var 
+kan vi snabbt få effekt av några åtgärder? När kan vi börja dra riktig nytta av fördelarna av CD?</p>
+<h2 id="4">4</h2>
+<p><strong>Genomför förbättringarna enligt planen</strong><br>Genomför förbättringarna steg för steg enligt planen och utvärdera kontinuerligt att det går i rätt 
+riktning. Planen innefattar troligen både invest- eringar i verktyg, utbildning och processer inom 
+de olika disciplinerna för hantering av kod, bygge, test och leverans.  </p>
+<p>Detta arbete innefattar bland annat att anpassa och komplettera infrastrukturen. Först och 
+främst gäller det att få ordning på källkodshanter- ingen, inte minst versionshanteringen. Den 
+stora utmaningen är sedan att automatisera byggen och kvalitetskontroll. Det är också viktigt 
+att man visualiserar alla processer och leveranser. Slutligen måste man skapa en mogen och 
+automatiserad leveransprocess.</p>
+<h2 id="5">5</h2>
+<p><strong>Trimma processerna och inför nya tankesätt</strong><br>När infrastrukturen börjar komma på plats är det dags att trimma in processerna och röra sig åt 
+höger i mognadsmodellen. Det innebär också att man inför nya tankesätt:</p>
+<p><strong>Metodtänkandet</strong> ska ta fasta på princip 1 i Agile Manifesto: ”Our highest priority is to satisfy 
+the customer through early and continuous delivery of valuable software”. Det innebär bland annat 
+att varje avslutad uppgift ska ge ett levererbart resultat som kan ligga till grund för snabb 
+återkoppling i en simulerad eller verklig produktionsmiljö.</p>
+<p><strong>Kommunikationen</strong> måste intensifieras på alla plan, både inom utvecklings teamet och mellan kund 
+och utvecklingsteam. Om kunden så önskar ska den kunna följa hur saker och ting fortskrider dag 
+för dag – total transparens är målet. Utvecklarna, å andra sidan, kan behöva få mer kunskap 
+om hur, var och av vem mjukvaran ska användas.</p>
+<p><strong>Effektivt ledarskap</strong> i en CD-miljö handlar mycket om att stärka tilliten inom utvecklingsteamet 
+– alla ska veta att de gör rätt saker på rätt sätt och att ett altruistiskt beteende lönar sig. 
+Ledningen måste också utveckla en ny djärvhet när det gäller att utnyttja den transparens, 
+tempoökning och leveranssäkerhet som CD skapar.</p>
+<p><strong>Agile manifesto</strong></p>
+<h2 id="__-we-follow-these-principles-our-highest-priority-is-to-satis-fy-the-customer-through-early-and-continuous-delivery-of-valuable-software-__"><strong>“WE FOLLOW THESE PRINCIPLES: OUR HIGHEST PRIORITY IS TO SATIS- FY THE CUSTOMER THROUGH EARLY AND CONTINUOUS DELIVERY OF VALUABLE SOFTWARE ...”</strong></h2>
+<hr>
+<h1 id="ett-annat-s-tt-att-f-rklara-continuous-delivery">ETT ANNAT SÄTT ATT FÖRKLARA CONTINUOUS DELIVERY</h1>
+<p><strong> Batch Automobiles och Continuous Cars är två racingstall som tävlar i formelbilsserien Formel Agile. 
+Konkurrensen är knivskarp, och för varje internationellt race måste de tekniska underverk som bilarna 
+utgör modifieras och uppdateras. Batch Automobiles har länge dominerat, men nu står man chanslös mot 
+uppstickaren Continuous Cars. Hur hinner dessa nya stjärnor få sina bilar perfekt anpassade för varje race?</strong></p>
+<p>Låt oss se vad som pågår bakom de stängda verkstadsdörrarna hos de båda racingstallen.</p>
+<p>[A] Hos Batch Automobiles går mekanikerteamet till botten med hela konstruktionen vid varje uppdatering. 
+De plockar isär bilen och jobbar med sina respektive delar. När alla är klara med sitt arbete plockar 
+de ihop en fungerande bil igen. Dessvärre brukar oväntade problem uppstå när de sätter ihop bilen eftersom 
+de olika delarna inte har testats tillsam- mans. När arbetet pågår vet tävlingsförararna för Batch Automobiles 
+att de ofta måste vänta i  era dagar mellan tillfällena då de får chansen att provköra bilen och ge återkoppling.
+<img src="/in5/img/batch-automobile.png" alt=""></p>
+<p>[B] Hos Continuous Cars plockar man bara ut de delar som man behöver utföra ändringar på. Så fort en mekaniker 
+gjort en ändring stoppar han eller hon tillbaks den och testar så att den fungerar tillsammans med bilen i 
+övrigt. Närhelst mekanikerna tar en paus i arbetet kan tävlingsförarna sätta sig i bilen, köra en kvick runda 
+och ge återkoppling.
+<img src="/in5/img/continouos-car.png" alt=""></p>
+
+            </div>
+
+        </div><!--blog list-->
+        <div class="col-md-2">
+        </div>
+
+    </div>
+</div><!--container-->
+
+        <div class="space-80"></div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center margin-b-30">
+                        <span>&copy; Copyright 2015. Theme by Design_mylife</span>
+                    </div>
+                </div>
+            </div>
+        </footer><!--footer end-->
+        <!--js plugins-->
+        <script defer="defer"  src="/in5/bower_components/jquery/dist/jquery.min.js"></script><script defer="defer"  src="/in5/js/jquery-migrate.min.js"></script><script defer="defer"  src="/in5/js/jquery.easing.1.3.min.js"></script><script defer="defer"  src="/in5/bootstrap/js/bootstrap.min.js"></script><script defer="defer"  src="/in5/js/bootstrap-hover-dropdown.min.js"></script><script defer="defer"  src="/in5/bower_components/flexslider/jquery.flexslider-min.js"></script><script defer="defer"  src="/in5/js/custom.js"></script><script defer="defer"  src="/in5/bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script><script defer="defer"  src="/in5/js/contact_me.js"></script><script defer="defer"  src="/in5/js/jqBootstrapValidation.js"></script><script defer="defer"  src="/in5/revolution/js/jquery.themepunch.revolution.min.js"></script><script defer="defer"  src="/in5/revolution/js/jquery.themepunch.tools.min.js"></script><script defer="defer"  src="/in5/revolution/js/extensions/revolution.extension.slideanims.min.js"></script><script defer="defer"  src="/in5/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script><script defer="defer"  src="/in5/revolution/js/extensions/revolution.extension.navigation.min.js"></script><script defer="defer"  src="/in5/revolution/js/extensions/revolution.extension.parallax.min.js"></script><script defer="defer"  src="/in5/scripts/slider.js"></script>
+    </body>
+</html>
