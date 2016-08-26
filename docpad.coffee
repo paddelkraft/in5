@@ -12,6 +12,15 @@ docpadConfig =
   outPath: 'out'  # default
   ghpRoot: 'in5'
 
+  markedRenderer:
+    paragraph: (text) ->
+      cName = text.split(' ')[0];
+      if cName.charAt(0) == "."
+        text = text.replace(cName,"");
+        cName = cName.replace(".","");
+        return "<div class='post-paragraph " +cName+ "'>" + text + "</div>\n";
+      return "<p>" + text + "</p>\n"
+
 # =================================
 # Template Data
 # These are variables that will be accessible via our templates
@@ -77,6 +86,7 @@ docpadConfig =
         "/in5/scripts/slider.js"
 
       ]
+
 
 
 
