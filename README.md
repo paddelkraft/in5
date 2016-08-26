@@ -28,3 +28,9 @@ in order to work with this repo you need these softwares on your computer
 The books are written in markdown and the files containing the written content can be found in
 ´´´render/in5/books´´´ and the pictures in ´´´static/in5/img/´´´
 
+
+###Custom Markdown
+
+In order to enable a little more formatting than vanilla markdown allows we have added some custom things to the renderer
+the cutomization is that a paragraph starting with a word starting with a dot  `.word Content` will render into ´<div class="word"> Content </div>`
+instead of ´<p> .word Content </div>`
